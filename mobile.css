@@ -1,0 +1,65 @@
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Abril Fatface', cursive;*/
+
+body{
+ 
+}
+
+.logo h1{
+ font-family: 'Abril Fatface', cursive; 
+color: #304a58;
+}
+
+.logo{
+    width:44%;
+    margin: auto;
+    font-size: 14px
+}
+.main_image{
+    margin: -50px 0 0 0;
+}
+img{
+    width:100%;
+}
+
+p1{
+    font-family: 'Roboto', sans-serif;
+}
+
+.intro{
+    margin:10% 6% 0; 
+}
+.footer{
+    background-color: #676868;
+    padding-top:0px;
+    margin-top:50px
+}
+
+.footer h2{
+    font-size:18px;
+    width:76%;
+    margin:4% 12% ;
+    color: whitesmoke;
+}
+.footer a{
+    text-decoration:none;
+    color: skyblue;
+}
+
+.footer a:hover{
+    color:#304a58;/* #d6163f ;304a58*/
+    
+}
+
+.footer img{
+    margin:0 0px 0 170px;
+    width:50%;
+}
+
+
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 50%;
+    }
+}
