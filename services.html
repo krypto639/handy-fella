@@ -56,9 +56,9 @@
 <div id="side-menu" class="side-nav">
 <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
 <ul>
-    <li><a class="active" href="#">Home</a></li>
+    <li><a href="index.html">Home</a></li>
     <li><a href="about.html">Contact</a></li>
-    <li><a href="services.html">Services</a></li>
+    <li><a class="active" href="#">Services</a></li>
     <li><a href="jobs.html">Jobs</a></li>
     </ul>
 
@@ -68,57 +68,7 @@
 </div>
 <div id="main">
     <div id="container">
-     
-<div class="Header">
-    <div class="img_trimmer">
-    <img class="img_about" src="imgs/images/jobs/FM_painting/painting-roof-potrait.jpg">
-    </div>
-
-    <div class="title">
-    <h2>About</h2>
-    
-    </div>
-    
-</div>
-     
-<div class="text">    
-    <p1>Handy Fella is your 'go to' person to call for general maintenance jobs, painting and garden tidy ups. Based in the Richmond area, Handy Fella is run by Brent Whyte, who is experienced in a wide range of jobs. </p1>
-    
-    <br><br>
-    
-    <p1 class="contact">To enquire about your job, simply call us on  <a href="tel:021-108-0950">021 108 0950</a> or leave an email at <a href="mailto:brentwhyte@handyfella.co.nz">brentwhyte@handyfella.co.nz</a></p1>
-</div>
-    
-    <div class="button">
-        <a href="about.html"><h3>learn more</h3></a>
-    </div>
-
-<!---Jobs/Work section Option 1--->
-
- <div class="Header">
-    <div class="img_trimmer">
-    <img class="img_work" src="imgs/images/jobs/shed/interior.jpg">
-    </div>
-
-    <div class="title">
-    <h2>Our Work</h2>
-    
-    </div>
-    
-</div>
-    
-<div class="text">
-<p1> With Handy Fella we're able to take on your big or small jobs to a high level of execution.  </p1>    
-</div>
-    
-    <!--reference of experience working with handyfella instead of job text?--> 
-    
-<div class="button">
-        <a href="jobs.html"><h3>learn more</h3></a>
-    </div>    
-    
- <!--Jobs/Work section Option 1--->   
-    
+         
 <div class="Header">
     <div class="img_trimmer">
     <img class="img_services" src="imgs/images/brush.jpg">
@@ -132,23 +82,22 @@
 </div>
     
 <div class="text">
-<p1>We offer a variety of services such as  Painting, Pressure washing, lawn care and more. </p1>    
+<p1>At Handy Fella we offer a variety of general maintenance and painting services for the upkeep of your house. Our services include but are not limited to:</p1>    
+
+<ul class="list_services">
+    <li>lawn mowing</li>
+    <li>hedge trimming</li>
+    <li>weed spraying</li>
+    <li>edge trimming</li>
+    <li>pressure washing</li>
+    <li>interior painting</li>
+    <li>exterior painting</li>
+    <li>window cleaning</li>
+</ul>        
 </div> 
     
-    <div class="button">
-        <a href="services.html"><h3>learn more</h3></a>
-    </div>    
-    
-    
- <!--<div id="Index_Slide">    
-    <div class="invisible-border">  
-    <img class="Slider" name="slide" width="100%" height="auto">
-    </div>
-</div> -->      
-   
-<!--contact footer--> 
 </div>
-<div class="footer">
+<div id="services_footer" class="footer">
 <ul>
     <li><a href="tel:021-108-0950">021 108 0950</a></li>
     <li><a href="mailto:brentwhyte@handyfella.co.nz">brentwhyte@handyfella.co.nz</a></li>
@@ -160,29 +109,7 @@
 </div>        
         
 <script>
-    var i=0; //start point
-    var images=[]
-    var time=4500;
-    
-    //image list
-    images[0] ='imgs/first_imgs/wharf.jpg';
-    images[1] ='imgs/first_imgs/swayinglight.jpg';
-    images[2] ='imgs/first_imgs/reflection.jpg';
-    images[3] ='imgs/first_imgs/snowtop.jpg';
-    
-    //change image
-    function changeImg(){
-        document.slide.src=images[i];
-        
-        if(i < images.length -1){i++;
-        }else{
-        i=0;
-        }
-        
-        setTimeout("changeImg()", time);
-    }
-    
-    window.onload= changeImg;
+
     
     function openSlideMenu(){
       document.getElementById('side-menu').style.width = '100%';
