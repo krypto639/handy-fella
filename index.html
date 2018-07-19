@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" type="text/css" href="mobile.css">
     
-    <link rel="shortcut icon" href="imgs/w-icon.png">
+    <link rel="shortcut icon" href="imgs/illustration/logo_handyfella.png">
 
 <!---responsive stylesheets--> 
     <link rel="stylesheet" href="reset.css">
@@ -29,46 +29,184 @@
     
     </head>
     <body>
-
         
-    <!--<nav> 
-        <ul>
-            <li id="name"><h1>about</h1></li>
-            <li class="active"><a href="#">services</a></li>
-            <li class="secondary"><a href="#">contact</a></li>
-           
-        </ul>
-    </nav>-->
-            
+
+<nav class="navbar">
+<!--<img class="nav-icon" href="#">-->
+<span class="open-slide" onclick="openSlideMenu()"><a href="#" onclick="openSlideMenu()">
+        <svg width="25" height="30">
+            <path d="M0,5 30,5" stroke="#222" stroke-width="3"/>
+            <path d="M0,14 30,14" stroke="#222" stroke-width="3"/>
+            <path d="M0,23 30,23" stroke="#222" stroke-width="3"/>
+        </svg>
+      </a>
+</span>
+</nav>
+
+<h1 class="logo">Handy Fella</h1>
+ 
+
+<ul class="navbar-nav">
+<li><a class="active" href="#">Home</a></li>
+<li><a href="#">Contact</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Jobs</a></li>
+</ul>
+        
+<div id="side-menu" class="side-nav">
+<a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+<ul>
+    <li><a class="active" href="#">Home</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Jobs</a></li>
+    </ul>
+
+
+
+
+</div>
+<div id="main">
+    
+<div class="Header">
+    <div class="img_trimmer">
+    <img class="img_about" src="imgs/images/jobs/FM_painting/painting-roof-potrait.jpg">
+    </div>
+
+    <div class="title">
+    <h2>About</h2>
+    
+    </div>
+    
+</div>
+     
+<div class="text">    
+    <p1>Handy Fella is your 'go to' person to call for general maintenance jobs, painting and garden tidy ups. Based in the Richmond area, Handy Fella is run by Brent Whyte, who is experienced in a wide range of jobs. </p1>
+    
+    <br><br>
+    
+    <p1 class="contact">To enquire about your job, simply call us on  <a href="tel:021-108-0950">021 108 0950</a> or leave an email at <a href="mailto:brentwhyte@handyfella.co.nz">brentwhyte@handyfella.co.nz</a></p1>
+</div>
+    
+    <div class="button">
+        <a href="#"><h3>learn more</h3></a>
+    </div>
+
+<!---Jobs/Work section Option 1--->
+ <div class="Header">
+    <div class="img_trimmer">
+    <img class="img_work" src="imgs/images/jobs/shed/interior.jpg">
+    </div>
+
+    <div class="title">
+    <h2>Our Work</h2>
+    
+    </div>
+    
+</div>
+    
+<div class="text">
+<p1> With Handy Fella we're able to take on your big or small jobs to a high level of execution.  </p1>    
+</div>
+    
+<div class="button">
+        <a href="#"><h3>learn more</h3></a>
+    </div>    
+    
+ <!--Jobs/Work section Option 1--->   
+    
+<div class="Header">
+    <div class="img_trimmer">
+    <img class="img_services" src="imgs/images/brush.jpg">
+    </div>
+
+    <div class="title">
+    <h2>Services</h2>
+    
+    </div>
+    
+</div>
+    
+<div class="text">
+<p1>We offer a variety of services such as  Painting, Pressure washing, lawn care and more. </p1>    
+</div> 
+    
+    <div class="button">
+        <a href="#"><h3>learn more</h3></a>
+    </div>    
+<!--Handyfella:Painting and general maintenance
+
++Backgound image brent working
+
++intro to business text and contact button--> 
+    
+<!--Services
+
++Backgound image tool relevant-brush/power house or lineup
+
++small descrip
+
++button to page-->     
+    
+<!--Jobs heading
+
++Carosel of 3-5 different jobs in portfolio
+
++reference of experience working with handyfella-->     
+ <!--<div id="Index_Slide">    
+    <div class="invisible-border">  
+    <img class="Slider" name="slide" width="100%" height="auto">
+    </div>
+</div> -->      
    
-            <div class="logo"><!-- replace with img if to hard to arrange -->
-            <h1>Handy Fella</h1>
-            <!--<p1>General Maintenance and Painting</p1>-->
-            </div>
+<!--contact footer--> 
 
-<div class="Main">
-    <div class="content">      
-        <img class="main_image" src="imgs/illustration/handyfella_illustration-07a.png" alt="painter illustration">   
-    </div>   
-        
-   <div class="content intro">     
-        <p1>Handy Fella is your 'go to' person to call for general maintenance jobs, painting and garden tidy ups. Based in the Richmond area, Handy Fella is run by Brent Whyte, who is experienced in a wide range of jobs. </p1>
-       
-       <br>
-       <br>
-        
-    </div> 
 <div class="footer">
-        <h2 class="contact">Contact us-call <a href="tel:021-108-0950">021 108 0950</a> or email <a href="mailto:brentwhyte@handyfella.co.nz">brentwhyte@handyfella.co.nz</a></h2> 
-    
-        <img class="workers" src="imgs/illustration/handyfella_illustration-10a.png" alt="job characters">
-    
+<ul>
+    <li><a href="tel:021-108-0950">021 108 0950</a></li>
+    <li><a href="mailto:brentwhyte@handyfella.co.nz">brentwhyte@handyfella.co.nz</a></li>
+    <li>Redwood Valley, Richmond, Nelson</li>
+</ul>    
 </div>    
     
+</div>        
+        
+<script>
+    var i=0; //start point
+    var images=[]
+    var time=4500;
     
-</div>    
-    <!--<img src="imgs/handyfella-illustration-10.png" alt="services">-->
+    //image list
+    images[0] ='imgs/first_imgs/wharf.jpg';
+    images[1] ='imgs/first_imgs/swayinglight.jpg';
+    images[2] ='imgs/first_imgs/reflection.jpg';
+    images[3] ='imgs/first_imgs/snowtop.jpg';
+    
+    //change image
+    function changeImg(){
+        document.slide.src=images[i];
+        
+        if(i < images.length -1){i++;
+        }else{
+        i=0;
+        }
+        
+        setTimeout("changeImg()", time);
+    }
+    
+    window.onload= changeImg;
+    
+    function openSlideMenu(){
+      document.getElementById('side-menu').style.width = '100%';
+        
+      document.getElementById('main').style.marginLeft = '0px';
+    }
 
-
+    function closeSlideMenu(){
+      document.getElementById('side-menu').style.width = '0';
+      document.getElementById('main').style.marginLeft = '0';
+    }
+</script>
+        
 </body>
 </html>
