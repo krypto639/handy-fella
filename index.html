@@ -7,7 +7,7 @@
         <!---discovery data-->   
     <meta name="author" content="Brent Whyte">
     
-    <meta name="keywords" content="handy fella, brent whyte, brent white, handy,handy man, exterior painting, maintenance, garden, tidy up, richmond, nelson, NZ ">
+    <meta name="keywords" content="handy fella, brent whyte, brent white, handy, handy man, exterior painting, maintenance, garden, tidy up, richmond, nelson, NZ, handyfella.co.nz">
     
     <meta name="description" content="Handyfella is your “go to” person to call for general maintenance jobs, painting and garden tidy ups. Based in the Richmond area, Handyfella is run by Brent Whyte, who is experience in a wide range of jobs. ">
         <link rel="stylesheet" href="reset.css">
@@ -57,9 +57,9 @@
 <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
 <ul>
     <li><a class="active" href="#">Home</a></li>
-    <li><a href="about.html">Contact</a></li>
-    <li><a href="services.html">Services</a></li>
-    <li><a href="jobs.html">Jobs</a></li>
+    <li><a href="http://www.handyfella.co.nz/about">Contact</a></li>
+    <li><a href="http://www.handyfella.co.nz/services">Services</a></li>
+    <li><a href="http://www.handyfella.co.nz/jobs">Jobs</a></li>
     </ul>
 
 
@@ -90,14 +90,14 @@
 </div>
     
     <div class="button">
-        <a href="about.html"><h3>learn more</h3></a>
+        <a href="http://www.handyfella.co.nz/about"><h3>learn more</h3></a>
     </div>
 
 <!---Jobs/Work section Option 1--->
 
  <div class="Header">
     <div class="img_trimmer">
-    <img class="img_work" src="imgs/images/jobs/shed/interior.jpg">
+    <img class="img_work" src="imgs/images/jobs/FM_painting/scafolding1.jpg">
     </div>
 
     <div class="title">
@@ -114,7 +114,7 @@
     <!--reference of experience working with handyfella instead of job text?--> 
     
 <div class="button">
-        <a href="jobs.html"><h3>learn more</h3></a>
+        <a href="http://www.handyfella.co.nz/jobs"><h3>learn more</h3></a>
     </div>    
     
  <!--Jobs/Work section Option 1--->   
@@ -136,7 +136,7 @@
 </div> 
     
     <div class="button">
-        <a href="services.html"><h3>learn more</h3></a>
+        <a href="http://www.handyfella.co.nz/services"><h3>learn more</h3></a>
     </div>    
     
     
@@ -160,29 +160,6 @@
 </div>        
         
 <script>
-    var i=0; //start point
-    var images=[]
-    var time=4500;
-    
-    //image list
-    images[0] ='imgs/first_imgs/wharf.jpg';
-    images[1] ='imgs/first_imgs/swayinglight.jpg';
-    images[2] ='imgs/first_imgs/reflection.jpg';
-    images[3] ='imgs/first_imgs/snowtop.jpg';
-    
-    //change image
-    function changeImg(){
-        document.slide.src=images[i];
-        
-        if(i < images.length -1){i++;
-        }else{
-        i=0;
-        }
-        
-        setTimeout("changeImg()", time);
-    }
-    
-    window.onload= changeImg;
     
     function openSlideMenu(){
       document.getElementById('side-menu').style.width = '100%';
