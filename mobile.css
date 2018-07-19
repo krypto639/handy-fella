@@ -101,7 +101,24 @@ img{width:100%;}
     color:#2476b3;
     list-style:circle;
 }
+/*----------Job_interior-------------*/
+.job_img_border{
+    overflow:hidden;
+    height:71vw;
+    margin:2% 0;
+}
 
+.J_cut{
+    margin-top: -15vw;
+}
+
+.J_shed{
+    margin-top:-18vw;
+}
+
+.J_lawn{
+    margin-top:-9vw
+}
 /*-----------button-------------*/
 .button{
     background-color:#2476b3;
