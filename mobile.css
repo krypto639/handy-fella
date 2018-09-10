@@ -102,11 +102,36 @@ img{width:100%;}
     color:#2476b3;
     list-style:circle;
 }
+/*----------Reviews-------------*/
+.reviews{
+    /*text-align: center;*/
+    width:95%;
+    padding:0 2.5%;
+}
+
+
+.reviews h2{
+    text-align: center;
+    color:#2476b3;
+    font-size: 32px;
+}
+
+.reviews .h3Blue{
+    color:#2476b3;
+    font-size: 18px;*/
+    
+    
+}
 /*----------Job_interior-------------*/
+
+
 .job_img_border{
     overflow:hidden;
     height:71vw;
     margin:2% 0;
+}
+.J_house{
+    margin-bottom:0vw;
 }
 
 .J_cut{
